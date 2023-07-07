@@ -101,4 +101,4 @@ if __name__ == "__main__":
     retrieveDataCartao(sys.argv[1], sys.argv[2], sys.argv[3])
 
 
-# https://www.sbevcg.com.br/sbe-web/relatorio/DetalheDoUsuario.html?idUsuario={id_cartao}&tipoDetalhe=cartao&sub=true
+# https://www.sbevcg.com.br/
