@@ -23,7 +23,7 @@ def saveOnFile(value, data, id=0):
     file.close()
 
 def retrieveAllInfoFromCard(id, cookie):
-    url = f'https://www.sbevcg.com.br/sbe-web/relatorio/DetalheDoUsuario.html?idUsuario={id}&tipoDetalhe=cartao&sub=true'
+    url = f'linkdabilhetagem'
     data = {}
     num = 0
     response = requests.get(url, cookies=cookie, verify=False)
