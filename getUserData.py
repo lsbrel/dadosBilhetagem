@@ -56,7 +56,7 @@ def dataRetriver(id, cookie):
 
     while id > 75000:
         print(f"Tentativa em id: {id}")
-        url = f'https://www.sbevcg.com.br/sbe-web/relatorio/DetalheDoUsuario.html?idPessoaFisica={id}&sub=true'
+        url = f'linkdabilehtagem'
         response = requests.get(url, cookies=cookie, verify=False)
         id -= 1
         if response.status_code == 200:
